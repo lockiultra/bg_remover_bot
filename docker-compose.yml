@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  bg_remover_bot:
+    build: .
+    environment:
+      TG_TOKEN: <TG_TOKEN>
+    restart: unless-stopped
